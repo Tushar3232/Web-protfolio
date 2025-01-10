@@ -20,8 +20,16 @@
     font-size: 20px;
     font-weight: bold;
     padding: 18px 35px;
-}
+    border: none;
 
+}
+/*header*/
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
 
 /* Nav style */
 
@@ -52,4 +60,50 @@ nav ul a {
 }
 .font-color-Dark2{
     color: #474747;
+}
+
+/* Banner styles */
+
+.banner-h4{
+    width: 177px;
+    height: 61px;
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    
+
+}
+
+.banner-h1{
+    width: 498px;
+    height: 166px;
+    font-weight: bold;
+    font-size: 85px;
+    color:#181818 ;
+}
+.banner-discription{
+    width: 585px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 18px;
+    line: height 30px;
+    color: #757575;
+
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+.banner-profile-pic{
+    width: 580px;
+    height: 675px;
+
+
+}
+.banner-content{
+    width: 585px;
+    height: 356px;
+
 }
