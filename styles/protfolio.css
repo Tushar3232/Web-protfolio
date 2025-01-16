@@ -13,21 +13,41 @@
 }
 .btn-primary{
     background-color: #FD6E0A;
-    width: 150px;
-    height: 65px;
     border-radius: 5px;
     color: #FFFFFF;
     font-size: 20px;
     font-weight: bold;
     padding: 18px 35px;
     border: none;
+}
 
+/* shared style */
+
+.tex-center{
+    text-align: center;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-description{
+    font-size: 18px;
+    font-weight: 400;
+    color:#757575 ;
+}
+
+.secondary-bg{
+    background-color:#FFF8F3 ;
 }
 /*header*/
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    
 
 }
 
@@ -93,6 +113,7 @@ nav ul a {
 .banner{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0 35px 0 230px;
 }
 
@@ -106,4 +127,41 @@ nav ul a {
     width: 585px;
     height: 356px;
 
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about seaction */
+.about{
+    border-radius:10px ;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top:30px ;
+}
+.item-description{
+    font-weight: bold;
+}
+/* what is do section staet */
+
+.skill-descripction{
+    display: flex;
+    justify-content: center;
+    text-align: center
+} 
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skil{
+   padding: 30px; 
+   margin-top: 50px;
+   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+   border-radius: 5px;
 }
